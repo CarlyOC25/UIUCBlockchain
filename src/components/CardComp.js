@@ -15,96 +15,69 @@ export default class CardComp extends Component {
                     >
                         <Tab eventKey="home" title="Home">
                             <div class="container">
-                                <div class="row">
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
+                                <div class="tabs row">
+                                    <Card className='text-center shadow' style={{ width: '18rem', marginRight: 60, paddingLeft: 0, paddingRight: 0, marginBottom: 10, marginLeft: 10, borderColor: 'white'}}>
+                                    <Card.Img style={{padding:0, height: 125}}variant="top" src="/images/cardImages/BDI411.png" />
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Title style={{height: 80, justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
+                                            BDI 411:  <br/>
+                                            Blockchain, Tokens, and their Business Applications 
+                                        </Card.Title>
                                         <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This course explores the development of blockchain technology and its application in business including via new constructs such as digital currencies, distributed ledgers, smart contracts, tokens, and decentralized autonomous organizations. 
                                         </Card.Text>
                                         <Button variant="primary">Go somewhere</Button>
                                     </Card.Body>
                                     </Card>
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
+                                    <Card className='text-center shadow' style={{ width: '18rem', marginRight: 60, paddingLeft: 0, paddingRight: 0, marginBottom: 10, marginLeft: 10, borderColor: 'white'}}>
+                                    <Card.Img style={{padding:0}}variant="top" src="/images/cardImages/CS598.png" />
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Title style={{height: 80, justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
+                                        CS 598: <br/> Fault-Tolerant Distributed <br/> Algorithms
+                                        </Card.Title>
                                         <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This course was designed to teach blockchains in a manner consistent with the classic foundation of distributed computing. By contrasting Nakamoto's blockchain with classic consensus protocols, this course helps students understand the key innovations of blockchains. 
                                         </Card.Text>
                                         <Button variant="primary">Go somewhere</Button>
                                     </Card.Body>
                                     </Card>
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
+                                    <Card className='text-center shadow' style={{ width: '18rem', marginRight: 60, paddingLeft: 0, paddingRight: 0, marginBottom: 10, marginLeft: 10, borderColor: 'white'}}>
+                                    <Card.Img style={{padding:0}}variant="top" src="/images/cardImages/Blockchain2023.png" />
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Title style={{height: 80, justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
+                                            Blockchain  <br/>
+                                            Spring 2023
+                                        </Card.Title>
                                         <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This undergraduate-level course will debut in Spring 2023 and will focus on the concepts of Web 3, understanding how a blockchain works, the basics of crypto currencies and their use cases, Tokenomics, smart contracts, and more.
                                         </Card.Text>
                                         <Button variant="primary">Go somewhere</Button>
                                     </Card.Body>
                                     </Card>
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
+                                    <Card className='text-center shadow' style={{ width: '18rem', marginRight: 60, paddingLeft: 0, paddingRight: 0, marginBottom: 10, marginLeft: 10, borderColor: 'white'}}>
+                                    <Card.Img style={{padding:0}}variant="top" src="/images/cardImages/BlockchainAnalytics.png" />
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Title style={{height: 80, justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
+                                            Blockchain Analytics  <br/>
+                                            Summer 2022
+                                        </Card.Title>
                                         <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        The first four weeks of this course explores the context of blockchain analytics. After that, we move on to understanding the data that underlies the most popular chain, Ethereum, and understanding the data generated from smart contracts and then asking relevant questions, which students will answer using SQL and tools.
                                         </Card.Text>
                                         <Button variant="primary">Go somewhere</Button>
                                     </Card.Body>
                                     </Card>
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
+                                    <Card className='text-center shadow' style={{ width: '18rem', marginRight: 60, paddingLeft: 0, paddingRight: 0, marginBottom: 10, marginLeft: 10, borderColor: 'white'}}>
+                                    <Card.Img style={{padding:0}}variant="top" src="/images/cardImages/BADM350.png" />
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Title style={{height: 80, justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
+                                            BADM 350 
+                                        </Card.Title>
                                         <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                        </Card.Text>
+                                        In this course, students are introduced to concepts such as asymmetric cryptography, consensus mechanisms, Blockchain network scaling, smart contract, decentralized finance applications (DeFi) and organizations (DAO), Web3, NFTs, and Metaverse.                                         </Card.Text>
                                         <Button variant="primary">Go somewhere</Button>
                                     </Card.Body>
                                     </Card>
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
-                                    <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                        </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
-                                    </Card.Body>
-                                    </Card>
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
-                                    <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                        </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
-                                    </Card.Body>
-                                    </Card>
-                                    <Card style={{ width: '18rem', marginRight: 60 }}>
-                                    <Card.Img variant="top" src="holder.js/100px180" />
-                                    <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                        </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
-                                    </Card.Body>
-                                    </Card>
-                                    
                                 </div>
                             </div>                           
                         </Tab>

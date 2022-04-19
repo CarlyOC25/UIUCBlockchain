@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
-import { Container} from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import './background.css'
 
 export default class InitScreen extends Component {
     render() {
         return (
-            <div className='body'>
-                <Container fluid style={{padding:0}}>
-                    <div className='ocean'>
-                        <div className='wave'>
-                        
-                        </div>
-                    </div>
+            <div>
+                <Container fluid className='backdrop'>
+                    <Container>
+                        <h1>Leading the web3</h1>
+                        <Image style={{position: 'relative', left: 500}}
+                            src="/images/Group 31.png"
+                            width={550}
+                        />
+                    </Container>
                 </Container>
-                
             </div>
         )
     }

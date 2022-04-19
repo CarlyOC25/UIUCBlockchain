@@ -15,32 +15,32 @@ export default class Contact extends Component {
                     <Row>
                         <Col>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Control style={{borderRadius: 10, height: 50}} type="password" placeholder="" />
+                            <Form.Control style={{borderRadius: 10, height: 50, backgroundColor: '#E7E7E7', borderColor: '#E7E7E7'}} type="password" placeholder="" />
                             <Form.Label className='form-text' >First Name</Form.Label>
                             </Form.Group>
                         </Col>
                         <Col>
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Control style={{borderRadius: 10, height: 50}} type="password" placeholder="" />
-                            <Form.Label>Password</Form.Label>
+                            <Form.Control style={{borderRadius: 10, height: 50, backgroundColor: '#E7E7E7', borderColor: '#E7E7E7'}} type="password" placeholder="" />
+                            <Form.Label className = 'form-text'>Password</Form.Label>
                             </Form.Group>
                         </Col>
                     </Row>
                     <Row>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Control style={{borderRadius: 10, height: 50}} type="password" placeholder="" />
+                        <Form.Control style={{borderRadius: 10, height: 50, backgroundColor: '#E7E7E7', borderColor: '#E7E7E7'}} type="password" placeholder="" />
                         <Form.Label className='form-text'>Company</Form.Label>
                         </Form.Group>
                     </Row>
                     <Row>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Control style={{borderRadius: 10, height: 50}} type="password" placeholder="" />
+                        <Form.Control style={{borderRadius: 10, height: 50, backgroundColor: '#E7E7E7', borderColor: '#E7E7E7'}} type="password" placeholder="" />
                         <Form.Label className='form-text'>Email Address</Form.Label>
                         </Form.Group>
                     </Row>
                     <Row>
                         <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Control style={{borderRadius: 10, height: 150}} type="password" placeholder="" />
+                        <Form.Control style={{borderRadius: 10, height: 150, backgroundColor: '#E7E7E7', borderColor: '#E7E7E7'}} type="password" placeholder="" />
                         <Form.Label className='form-text'>Comment or Message</Form.Label>
                         </Form.Group>
                     </Row>
