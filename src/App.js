@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarComp from './components/NavbarComp';
+import Team from './components/Team.js';
+import MissionStatement from './components/MissionStatement';
+import Contact from './components/Contact';
+import Info from './components/Info';
+import InitScreen from './components/InitScreen';
+import GetInvolved from './components/GetInvolved';
+import CardComp from './components/CardComp';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComp/>
+      {/* <InitScreen/> */}
+      <Info/>
+      <MissionStatement/>
+      <CardComp/>
+      <Team/>
+      <GetInvolved/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
