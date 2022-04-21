@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.meet-header {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51%;
+    letter-spacing: -0.6%;
+    margin-bottom: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.title-txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37.5px;
+    letter-spacing: -0.6%;
+    margin-bottom: 0;
+}
+.position-txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.5px;
+    letter-spacing: -0.6%;
+    padding-top:0;
+}
+.body-txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.5px;
+    letter-spacing: -0.6%;
+}
+
+.contact-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: #062356;
+    border-radius: 15px;
+    background-color: white;
+    color: #062356;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 3px;
+}
+.contact-btn:hover {
+    /* background-color: #F2633B;
+    border-color: #F2633B;
+    color: white; */
+    background-color: #062306;
+    border-color: #062306;
+}
+.body-meet {
+    margin-top: 100px;
+    
+}
+.buffer {
+    margin-top: 50px;
+}

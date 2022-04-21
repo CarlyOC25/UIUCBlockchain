@@ -18,7 +18,7 @@ function App() {
       <MissionStatement/>
       <CardComp/>
       <Team/>
-      <GetInvolved/>
+      {/* <GetInvolved/> */}
       <Contact/>
       <Footer/>
     </div>

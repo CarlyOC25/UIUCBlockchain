@@ -7,13 +7,13 @@ export default class CardComp extends Component {
             <div>
                 
                 <Container>
-                    <Tabs
-                    defaultActiveKey="home"
-                    transition={false}
-                    id="noanim-tab-example"
-                    className="mb-3"
+                    {/* <Tabs
+                    defaultActiveKey="Research"
+                    
+                    id="uncontrolled-tab-example"
+                    className="mb-3 tabs-edit"
                     >
-                        <Tab eventKey="home" title="Home">
+                        <Tab eventKey="Research" title="Research">
                             <div class="container">
                                 <div class="tabs row">
                                     <Card className='text-center shadow' style={{ width: '18rem', marginRight: 60, paddingLeft: 0, paddingRight: 0, marginBottom: 10, marginLeft: 10, borderColor: 'white'}}>
@@ -81,19 +81,24 @@ export default class CardComp extends Component {
                                 </div>
                             </div>                           
                         </Tab>
-                        <Tab eventKey="Research" title="Profile">
+                        <Tab eventKey="Projects" title="Projects">
                             
                         </Tab>
-                        <Tab eventKey="Contact" title="Contact">
+                        <Tab eventKey="Courses" title="Courses">
                             
-                        </Tab>
+                        </Tab> */}
+                    {/* </Tabs> */}
+                    <Tabs defaultActiveKey="profile" id='uncontrolled-tab-example'>
+                            <Tab eventKey="home" title="Home">
+
+                            </Tab>
                     </Tabs>
                 </Container>
-                <Container fluid className='pb-5 pt-5 mt-5'style={{padding: 0}}>
+                {/* <Container fluid className='pb-5 pt-5 mt-5'style={{padding: 0}}>
                     <Image
                         src='/images/divider.png'
                     />
-                </Container>
+                </Container> */}
             </div>
         )
     }

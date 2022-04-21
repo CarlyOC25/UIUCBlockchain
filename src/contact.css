@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+.background {
+    background-image: url("/public/images/alma.png");
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    height: 60vh;
+    background-position: center;
+    
+}
+
+.btn-contact {
+    color: white;
+    background-color: #FF552E;
+    border-color: #FF552E;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 35px;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    
+    color: white;
+    
+}
+.btn-contact:hover {
+    background-color: #182849;
+    border-color: #182849;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+.overlay {
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background: rgba(24, 40, 73, 0.5); /*can be anything, of course*/
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}

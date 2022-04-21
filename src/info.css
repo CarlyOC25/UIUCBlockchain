@@ -1,0 +1,33 @@
+.info-background {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info-image {
+    background-image: url("/public/images/studentsworking.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 100vh;
+    
+}
+.colInfo {
+    height: 100vh;
+    padding: 0;
+    padding-left: 40px
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.info-body-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 51px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+.info-header {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.6%;
+    font-size: 40px;
+}
