@@ -11,17 +11,26 @@ export default class Contact extends Component {
                         <Row>
                             <Col>
                                 <h1 className='text'>
-                                    Have any questions?
-                                </h1>                       
+                                    Call to action 1
+                                </h1>   
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac metus est. Pellentesque eros urna, convallis non ullamcorper id, luctus a augue. Vivamus sit amet lectus id justo lacinia elementum. Integer vel mi porttitor, pulvinar erat nec, iaculis sapien. </p>
+                                <Button className='btn-contact'>
+                                    Donate
+                                </Button>                    
+                            </Col>
+                            <Col>
+                                <h1 className='text'>
+                                    Call to action 1
+                                </h1>   
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac metus est. Pellentesque eros urna, convallis non ullamcorper id, luctus a augue. Vivamus sit amet lectus id justo lacinia elementum. Integer vel mi porttitor, pulvinar erat nec, iaculis sapien. </p>
+                                <Button className='btn-contact'>
+                                    Donate
+                                </Button>                              
                             </Col>
                             
                         </Row>
                         <Row>
-                            <Col>
-                                <Button className='btn-contact'>
-                                    Contact Us
-                                </Button>                        
-                            </Col>
+                            
                         </Row>
                     </Container>
                 </Container>

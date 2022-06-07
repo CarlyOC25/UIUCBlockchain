@@ -40,7 +40,8 @@
     z-index: 1;
     top: 0px;
     left: 0px;
-    background: rgba(24, 40, 73, 0.5); /*can be anything, of course*/
+    /* background: rgba(24, 40, 73, 0.5); can be anything, of course */
+    background: linear-gradient(178.57deg, rgba(255, 85, 46, 0.44) 1%, #13294B 98.57%);
     height: 100%;
     justify-content: center;
     display: flex;

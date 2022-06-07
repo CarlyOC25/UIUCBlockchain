@@ -21,13 +21,12 @@ export default class NavbarComp extends Component {
                 <div>
                     <Rule color = 'rgba(255,86,45, 1)' />
                 </div>
+               
                 <Navbar bg="light" expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img
-                            src="/images/navbarBrand.png"
-                            width= "303.2"
-                            height= "56.8"
+                            src="/images/University-Wordmark-Full-Color-RGB 2.png"
                             alt = "UIUC Blockchain"
                             className = "d-inline-block align-top"
                         />
@@ -38,7 +37,7 @@ export default class NavbarComp extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link className='navbar-Text' style={{paddingRight: 50}} href="#home">About</Nav.Link>
-                        <Nav.Link className='navbar-Text' style={{paddingRight: 50}} href="#link">Initiatives</Nav.Link>
+                        <Nav.Link className='navbar-Text' style={{paddingRight: 50}} href="#link">Explore</Nav.Link>
                         <Nav.Link className='navbar-Text' style={{paddingRight: 50}} href="#link">People</Nav.Link>
                         <Nav.Link className='navbar-Text' style={{backgroundColor: '#FF552E', color: 'white', borderRadius: 50, paddingLeft: 10, paddingRight: 10}} href="#link">Get Involved</Nav.Link>
                     </Nav>

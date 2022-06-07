@@ -45,15 +45,15 @@ export default class GetInvolved extends Component {
     
     </Col>
     <Col lg={7} className='colInfo d-flex align-items-center justify-content-center'>
-        <h1  className='info-header' style ={{textAlign: "left", wordSpacing: 7}}>
-                 <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 10, paddingRight: 10}}>Blockchain</p> at UIUC
+        {/* <h1  className='info-header' style ={{textAlign: "left", wordSpacing: 7}}>
+                Leaders in Blockchain
         
                 <br></br>
                 <br></br>
              <p className='info-body-text' style ={{textAlign: "left", marginBottom: 0}}>
                  As a top tier research institution with a student population of over 50k learners, the University of Illinois is well positioned to help meet the talent demand within the Blockchain industry while contributing to deep research, and translational work that leads to innovative new start-ups. Using our academic rigor as a top 10 University in both Business and Engineering, we supplement the student experience with hands-on projects at every level of instruction.
              </p>     
-        </h1>     
+        </h1>      */}
     </Col>
     </Row>
     

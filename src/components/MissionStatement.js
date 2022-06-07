@@ -9,6 +9,18 @@ export default class MissionStatement extends Component {
                 <Container>
                     <Row className='d-flex justify-content-center'>
                         <Col>
+                            <h1>Sharing Knowledge</h1>
+                            <h4>The University of Illinois has a land-grant mission. This means that we are passionate about democratizing education. As Blockchain continues to gain relevance, our mission is to equip this generation of Web3 workers with the skills and experiences necessary to meet the industry demand.</h4>
+                        </Col>
+                        <Col className='text-center'>
+                            <h1>Connect with us!</h1>
+                            <Button className='button-txt'>leave your Contact</Button>
+                        </Col>
+                    </Row>    
+                </Container>
+                {/* <Container>
+                    <Row className='d-flex justify-content-center'>
+                        <Col>
                             <h1 className='mission-header'>Mission Statement</h1>
                             <h1 className='mission-desc'>The University of Illinois has a land-grant mission. This means that we are passionate about democratizing education. As Blockchain continues to gain relevance, our mission is to equip this generation of Web3 workers with the skills and experiences necessary to meet the industry demand.</h1>
                         </Col>
@@ -20,7 +32,7 @@ export default class MissionStatement extends Component {
                             </p>
                         </Col>
                     </Row>
-                </Container>
+                </Container> */}
             </div>
         )
     }

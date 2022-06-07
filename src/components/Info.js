@@ -56,12 +56,12 @@ export default class Info extends Component {
                 <Container fluid className='info-image'>
                     <Container>
                         <Row>
-                        <Col classN>
+                        <Col>
                         
                         </Col>
                         <Col lg={7} className='colInfo d-flex align-items-center justify-content-center'>
                             <h1  className='info-header' style ={{textAlign: "left", wordSpacing: 7}}>
-                                     <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 10, paddingRight: 10}}>Blockchain</p> at UIUC
+                                     <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 5, paddingRight: 5, marginRight: 15}}></p> Leaders in Blockchain
                             
                                     <br></br>
                                     <br></br>
