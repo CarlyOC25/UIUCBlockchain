@@ -5,7 +5,7 @@ export default class CardComp extends Component {
     render() {
         return (
             <div>
-                
+                {/* Use JSON and map the text */}
                 <Container>
                     {/* <Tabs
                     defaultActiveKey="Research"

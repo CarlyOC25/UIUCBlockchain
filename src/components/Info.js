@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import { Col, Row, Container, Image} from 'react-bootstrap'
+import { Col, Row, Container, Button} from 'react-bootstrap'
 import "../info.css"
-
+import "../missionStatement.css"
 export default class Info extends Component {
     render() {
         const Rule = ({ color }) => (
@@ -17,36 +17,8 @@ export default class Info extends Component {
             />
           );
         // const colored  
-        return (
-            // <div style={{display: 'inline'}}>
-    
-            //     <Container fluid>
-            //         <Row>
-            //             <Col>
-            //                 <Image 
-            //                     src = "images/studentsWorking.png"
-            //                     width = {708}
-            //                     height = {483.75}
-            //                 />
-            //             </Col>
-                        
-            //             <Col>
-            //             <Container>
-            //                 <h1 className = "mt-5 pt-2 header-text" style ={{textAlign: "left", wordSpacing: 7}}>
-            //                         <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 10, paddingRight: 10}}>Blockchain</p> at UIUC
-            //                     </h1>
-            //                     <br/>
-            //                     <p  className = "body-text" style ={{textAlign: "left"}}>
-            //                         As a top tier research institution with a student population of over 50k learners, the University of Illinois is well positioned to help meet the talent demand within the Blockchain industry while contributing to deep research, and translational work that leads to innovative new start-ups. Using our academic rigor as a top 10 University in both Business and Engineering, we supplement the student experience with hands-on projects at every level of instruction.
-            //                     </p>
-            //             </Container>
-            //             </Col>
-            //         </Row>
-            //     </Container>
-                
-            // </div>
-            
-            <div >
+        return (    
+            <div className='background-info'>
                 <div>
                     <Rule color = 'rgba(255,86,45, 1)' />
                 </div>
@@ -76,6 +48,18 @@ export default class Info extends Component {
                     </Container>
                 </Container>
                 </div>
+                <Container>
+                    <Row className='d-flex justify-content-center'>
+                        <Col>
+                            <h1>Sharing Knowledge</h1>
+                            <h4>The University of Illinois has a land-grant mission. This means that we are passionate about democratizing education. As Blockchain continues to gain relevance, our mission is to equip this generation of Web3 workers with the skills and experiences necessary to meet the industry demand.</h4>
+                        </Col>
+                        <Col className='text-center'>
+                            <h1>Connect with us!</h1>
+                            <Button className='button-txt'>leave your Contact</Button>
+                        </Col>
+                    </Row>    
+                </Container>
             </div>
         )
     }

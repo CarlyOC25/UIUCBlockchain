@@ -16,7 +16,7 @@ function App() {
       <NavbarComp/>
       <InitScreen/>
       <Info/>
-      <MissionStatement/>
+      {/* <MissionStatement/> */}
       <Impactheadline/>
       <CardComp/>
       <Team/>
