@@ -3,9 +3,8 @@
     background-image: url("/public/images/alma.png");
     background-repeat: no-repeat;
     margin-top: 200px;
-    height: 60vh;
     background-position: center;
-    
+    background-size: cover;
 }
 
 .btn-contact {
@@ -54,5 +53,6 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    
+    padding-top: 100px;    
+    padding-bottom: 100px;
 }

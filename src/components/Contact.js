@@ -6,10 +6,10 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='background'>
-                <Container fluid className='text-center overlay' >
+                <Container fluid className='text-center overlay ContactBox' >
                         <Container>
                         <Row>
-                            <Col>
+                            <Col lg ={6} md= {6} sm={12}>
                                 <h1 className='text'>
                                     Support blockchain innovation at Illinois 
                                 </h1>   

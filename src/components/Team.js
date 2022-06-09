@@ -13,9 +13,9 @@ export default class Team extends Component {
                     <h1  className='meet-header' style ={{textAlign: "left", wordSpacing: 7}}>
                         <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 5, paddingRight: 5, marginRight: 15}}></p> Blockchain
                                 
-                    </h1>     
+                    </h1> 
                     <Row>
-                        <Col className='col-lg-15'>
+                        <Col md={1} className='col-lg-15'>
                             <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
                             <Image style={{height: 220, width: 220}} roundedCircle
                                 src="/images/teamImages/bigdog.png"

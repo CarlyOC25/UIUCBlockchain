@@ -65,6 +65,8 @@
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .col-xs-15 {
