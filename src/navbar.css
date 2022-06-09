@@ -3,6 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
+    font-size: 20px;
 }
 .form-text {
     font-family: 'Montserrat', sans-serif;
@@ -26,3 +27,17 @@
     font-size: 40px;
 }
 
+.navbarSpacer {
+    background: #EEECEC;
+    border-color: #EEECEC;
+    height: 40px;
+    z-index: 1;
+}
+
+.navbarSpacerText {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}

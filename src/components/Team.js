@@ -18,97 +18,251 @@ export default class Team extends Component {
                         <Col className='col-lg-15'>
                             <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
                             <Image style={{height: 220, width: 220}} roundedCircle
-                                src="/images/ErinNelson.png"
+                                src="/images/teamImages/bigdog.png"
                             />
                             <Card.Body >
-                                <Card.Title className='title-txt' style={orangeFont}>Erin Nelson</Card.Title>
-                                <Card.Text className='position-txt' style={{height: 80}}>
-                                    <b>
-                                        Senior Director for International Advancement    
-                                    </b>
+                                <Card.Title className='title-txt' style={orangeFont}>Robert Brunner</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Chief Disruption Officer <br></br>Gies College of Business
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
-                                <Button className='contact-btn'>Contact</Button>
+                                <Button href='' className='contact-btn'>Contact</Button>
                             </Card.Footer>
                             </Card>
                         </Col>
                         <Col className='col-lg-15'>
                             <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
                             <Image style={{height: 220, width: 220}} roundedCircle
-                                src="/images/AndrewMiller.png"
+                                src="/images/teamImages/samchen.png"
                             />
-                            <Card.Body>
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Samuel Chen</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Director of iData
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='https://ischool.illinois.edu/people/anita-nikolich' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/wenhan.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Wencui Han</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Asistant Professor of <br></br> Business Administration
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/Kinsey.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Jacob Kinsey</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Director Gies Consulting
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/andrewMiller.png"
+                            />
+                            <Card.Body >
                                 <Card.Title className='title-txt' style={orangeFont}>Andrew Miller</Card.Title>
-                                <Card.Text className='position-txt' style={{height: 80}}>
-                                    <b>
-                                        Director of Decentralized Systems Lab at UIUC  
-                                    </b>
+                                <Card.Text className='position-txt'>
+                                    Director of Decentralized Lab at UIUC
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
-                                <Button className='contact-btn'>Contact</Button>
+                                <Button href='' className='contact-btn'>Contact</Button>
                             </Card.Footer>
                             </Card>
-                        </Col>
-                        <Col className='col-lg-15'>
-                            
-                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white' }}>
-                            <Image  style={{height: 220, width: 220}} roundedCircle
-                                src="/images/harleyJohnson.png"
-                            />
-                            <Card.Body>
-                                <Card.Title className='title-txt' style={orangeFont} >Harley T Johnson</Card.Title>
-                                <Card.Text className='position-txt' style={{height: 80}}>
-                                    <b>
-                                        Associate Dean for Research in the Grainger of College of Engineering  
-                                    </b>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
-                                <Button className='contact-btn'>Contact</Button>
-                            </Card.Footer>
-                            </Card>
-                        </Col>
-                        <Col className='col-lg-15'>
-                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white' }}>
-                            <Image style={{height: 220, width: 220}} roundedCircle
-                                src="/images/robertBrunner.png"
-                            />
-                            <Card.Body>
-                                <Card.Title className='title-txt' style={orangeFont} >Robert Brunner</Card.Title>
-                                <Card.Text className='position-txt' style={{height: 80}}>
-                                    <b>
-                                        Chief Disruption Officer Gies College of Business    
-                                    </b>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
-                                <Button className='contact-btn'>Contact</Button>
-                            </Card.Footer>
-                            </Card>
-                            
-                        </Col>
-                        <Col className='col-lg-15'>
-                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white' }}>
-                            <Image style={{height: 220, width: 220}} roundedCircle
-                                src="/images/robertBrunner.png"
-                            />
-                            <Card.Body>
-                                <Card.Title className='title-txt' style={orangeFont} >Robert Brunner</Card.Title>
-                                <Card.Text className='position-txt' style={{height: 80}}>
-                                    <b>
-                                        Chief Disruption Officer Gies College of Business    
-                                    </b>
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
-                                <Button className='contact-btn'>Contact</Button>
-                            </Card.Footer>
-                            </Card>
-                            
                         </Col>
                     </Row>
+
+                    <Row style={{paddingTop: 50}}>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/erinNelson.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Erin Nelson</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Senior Director for International Advancement
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/Anita-Nikolich.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Anita Nikolich</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Director of Research and Technology Innovation school of Information Sciences
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/madhusudan.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Madhusudan Parthasarathy</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Professor of Computer Science
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/Ling Ren.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Ling Ren</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Asistant Professor
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/Grigore.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Grigore Rosu</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Professor of Computer Science
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <Row style={{paddingTop: 50}}>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/Vishal.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Vishal Sachdev</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Clinical Associate Professor of Business Administration aand RC Evans Data Analytics Fellow
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/sridhar.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Sridhar Seshadri</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Alan J. and Joyce D. Baltz Enfowed Professor and Area Chair
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/Lav.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Lav R. Varshney</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Associate Professor
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/PV.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Pramod Viswanath</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Director of Decentralized Systems Lab at UIUC
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        <Col className='col-lg-15'>
+                            <Card className='text-center align-items-center' style={{ width: '18rem', borderColor: 'white'}}>
+                            <Image style={{height: 220, width: 220}} roundedCircle
+                                src="/images/teamImages/Yang.png"
+                            />
+                            <Card.Body >
+                                <Card.Title className='title-txt' style={orangeFont}>Yang Wang</Card.Title>
+                                <Card.Text className='position-txt'>
+                                    Asistant Professor
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer style={{backgroundColor: 'white', borderColor: 'white'}}>
+                                <Button href='' className='contact-btn'>Contact</Button>
+                            </Card.Footer>
+                            </Card>
+                        </Col>
+                        
+                    </Row>
+
                     
                 </Container>
                 

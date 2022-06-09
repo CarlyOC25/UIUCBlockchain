@@ -6,7 +6,7 @@ export default class CardComp extends Component {
         return (
             <div>
                 {/* Use JSON and map the text */}
-                <Container>
+                {/* <Container> */}
                     {/* <Tabs
                     defaultActiveKey="Research"
                     
@@ -88,12 +88,12 @@ export default class CardComp extends Component {
                             
                         </Tab> */}
                     {/* </Tabs> */}
-                    <Tabs defaultActiveKey="profile" id='uncontrolled-tab-example'>
+                    {/* <Tabs defaultActiveKey="profile" id='uncontrolled-tab-example'>
                             <Tab eventKey="home" title="Home">
 
                             </Tab>
                     </Tabs>
-                </Container>
+                </Container> */}
                 {/* <Container fluid className='pb-5 pt-5 mt-5'style={{padding: 0}}>
                     <Image
                         src='/images/divider.png'

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Navbar, Nav, Container, Image} from 'react-bootstrap'
-import '../fonts.css'
+import '../navbar.css'
 
 export default class NavbarComp extends Component {
     render() {
@@ -16,30 +16,21 @@ export default class NavbarComp extends Component {
               }}
             />
           );
-          const Rule2 = ({ color }) => (
-            <div
-              style={{
-                borderColor: color,
-                backgroundColor: color,
-                height: 20,
-                padding: 0,
-                margin: 0,
-                zIndex: 1
-              }}
-            />
-          );
         return (
             <div>
                 <div>
                     <Rule color = 'rgba(255,86,45, 1)' />
                 </div>
-                <div>
-                    <Rule2 color = 'rgba(238,239,240, 1)' />
+                <div className='navbarSpacer'>
+                  <Container>
+                    <h1 className='navbarSpacerText'>UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN</h1>    
+                  </Container>
+                    
                 </div>
                
                 <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="#home" style={{marginTop: 3, marginBottom: 3}}>
                         <img
                             src="/images/University-Wordmark-Full-Color-RGB 2.png"
                             alt = "UIUC Blockchain"

@@ -1,17 +1,16 @@
 .backdrop {
-    height: 110vh;   
+    height: 115vh;   
     background-color: #182849; 
-    background-image: url("/public/images/intersect1.png");
+    background-image: url("/public/images/Group\ 75.png"),url("/public/images/intersect1.png") ;
     background-repeat: no-repeat;
-    margin-top: 0;;
+    background-position:  calc(100% - 20%)  calc(100% - 250px), left top;
+    background-size: 65%, 100%;
+    margin-top: -5px;
+    z-index: -1;
     position: relative;
 }
 
-.childBot{
-   position: absolute;
-   bottom: 0;
-   
-}
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');

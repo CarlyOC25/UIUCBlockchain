@@ -18,20 +18,17 @@ export default class Info extends Component {
           );
         // const colored  
         return (    
-            <div className='background-info'>
+            <div className='background-info cased'>
                 <div>
                     <Rule color = 'rgba(255,86,45, 1)' />
                 </div>
-                <div className='info-background'>
-
-                
-                <Container fluid className='info-image'>
+                <div className='studentImageBg'>
                     <Container>
                         <Row>
-                        <Col>
-                        
-                        </Col>
-                        <Col lg={7} className='colInfo d-flex align-items-center justify-content-center'>
+                            <Col>
+                            
+                            </Col>
+                            <Col lg={7} className='colInfo d-flex align-items-center justify-content-center'>
                             <h1  className='info-header' style ={{textAlign: "left", wordSpacing: 7}}>
                                      <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 5, paddingRight: 5, marginRight: 15}}></p> Leaders in Blockchain
                             
@@ -43,10 +40,9 @@ export default class Info extends Component {
                             </h1>     
                         </Col>
                         </Row>
-                        
-                    
                     </Container>
-                </Container>
+
+                    
                 </div>
                 <Container>
                     <Row className='d-flex justify-content-center'>
@@ -59,7 +55,15 @@ export default class Info extends Component {
                             <Button className='button-txt'>leave your Contact</Button>
                         </Col>
                     </Row>    
-                </Container>
+                    </Container>
+                
+                
+             
+
+                
+                
+                
+                
             </div>
         )
     }

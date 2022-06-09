@@ -1,6 +1,13 @@
-.info-background {
+/* .info-background {
     margin-top: 50px;
     margin-bottom: 50px;
+} */
+.studentImageBg {
+    background-image: url("/public/images/studentsworking.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 100vh;
 }
 .info-image {
     background-image: url("/public/images/studentsworking.png");
@@ -32,6 +39,12 @@
     font-size: 40px;
 }
 .background-info {
-    height: 160 vh;
+    height: 200vh;
+    background-size: 100vw 80vh;
+    background-image: url("/Users/kylemorimoto/Desktop/UIUCWebsite/uiuc-blockchain/public/images/Group.png");
+    position: right bottom;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
 
