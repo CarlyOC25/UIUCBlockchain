@@ -9,9 +9,10 @@
     z-index: -1;
     position: relative;
 }
-
-
-
+.bottomTxt {
+    position: absolute;
+    bottom: 0;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 .hero-header {
@@ -35,6 +36,21 @@
     line-height: 158%;
     z-index: 1;
     margin-top: 20px;
+}
+
+.stats {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.statsDesc {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 50px;
 }
 /* .image-top {
     position: relative;
