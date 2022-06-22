@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Info from './components/Info';
 import InitScreen from './components/InitScreen';
 import GetInvolved from './components/GetInvolved';
-import CardComp from './components/CardComp';
+
 import Footer from './components/Footer';
 import Impactheadline from './components/ImpactHeadline';
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Info/>
       {/* <MissionStatement/> */}
       <Impactheadline/>
-      <CardComp/>
+      {/* <CardComp/> */}
       <Team/>
       {/* <GetInvolved/> */}
       <Contact/>
