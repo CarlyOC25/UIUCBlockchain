@@ -1,5 +1,5 @@
 .backdrop {
-    height: 115vh;   
+    height: 100vh;
     background-color: #182849; 
     background-image: url("/public/images/Group\ 75.png"),url("/public/images/intersect1.png") ;
     background-repeat: no-repeat;
@@ -7,11 +7,35 @@
     background-size: 65%, 100%;
     margin-top: -5px;
     z-index: -1;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.hero-content {
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topTxt {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40%;
 }
 .bottomTxt {
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 15px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
@@ -51,6 +75,12 @@
     font-style: normal;
     font-size: 25px;
     padding-bottom: 50px;
+}
+
+.divider {
+    background-color: white;
+    height: 100px;
+    width: 3px;
 }
 /* .image-top {
     position: relative;

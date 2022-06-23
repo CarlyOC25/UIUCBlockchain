@@ -11,6 +11,13 @@
     margin-bottom: 50px;
 }
 
+.team-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .title-txt{
     font-family: 'Source Sans Pro', sans-serif;
@@ -52,42 +59,14 @@
 }
 .body-meet {
     margin-top: 100px;
-    
+    margin-left: 7%;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .buffer {
     margin-top: 50px;
 }
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-}
 
-.col-xs-15 {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-.col-sm-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
-    }
-}

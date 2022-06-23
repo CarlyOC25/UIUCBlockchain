@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Info from './components/Info';
 import InitScreen from './components/InitScreen';
 import GetInvolved from './components/GetInvolved';
+import './background.css'
 
 import Footer from './components/Footer';
 import Impactheadline from './components/ImpactHeadline';
