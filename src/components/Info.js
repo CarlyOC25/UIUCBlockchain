@@ -5,7 +5,7 @@ import "../missionStatement.css"
 export default class Info extends Component {
     render() {
         return (    
-            <div className='background-info'>
+            <div id='about' className='background-info'>
                 <div className='general-info'>
                     <div className='info-image' />
                     <div  className='info-body'>

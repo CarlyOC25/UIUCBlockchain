@@ -8,10 +8,10 @@ export default class Team extends Component {
             color: "#E45E39"
         }
         return (
-            <div>   
+            <div id='people'>   
                 <Container className='body-meet'>
                     <h1  className='meet-header' style ={{textAlign: "left", wordSpacing: 7}}>
-                        <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 5, paddingRight: 5, marginRight: 15}}></p> Blockchain
+                        <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 5, paddingRight: 5, marginRight: 15}}></p> Blockchain Team
                                 
                     </h1> 
                     <div className='team-container'>
