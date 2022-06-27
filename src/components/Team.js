@@ -9,18 +9,19 @@ export default class Team extends Component {
         }
         return (
             <div id='people'>   
-                <Container className='body-meet'>
+                {/* <Container className='body-meet'> */}
+                <Container style={{marginTop: 70}}>
                     <h1  className='meet-header' style ={{textAlign: "left", wordSpacing: 7}}>
                         <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 5, paddingRight: 5, marginRight: 15}}></p> Blockchain Team
                                 
                     </h1> 
                     <div className='team-container'>
                         {TeamMembers.map(({ ID, Name, Title, College, Email, Website, ProfilePic}) => (
-                            <Card id={ID} className='text-center align-items-center' style={{ width: '20rem', height: '100%', borderColor: 'white'}}>
+                            <Card id={ID} className='text-center align-items-center' style={{ width: '20rem', height: '100%', borderColor: 'white', marginTop: 30}}>
                                 <Image style={{height: 220, width: 220}} roundedCircle
                                     src={ProfilePic}
                                 />
-                                <Card.Body >
+                                <Card.Body>
                                     <Card.Title className='title-txt' style={orangeFont}>{Name}</Card.Title>
                                     <Card.Text className='position-txt'>
                                         {Title} <br></br>{College}

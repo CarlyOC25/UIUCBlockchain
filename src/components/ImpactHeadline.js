@@ -10,14 +10,30 @@ export default class Impactheadline extends Component {
                    <h1 className='impact-header'>
                         <p style={{display: 'inline', color: 'white', backgroundColor: '#FF552E', paddingLeft: 5, paddingRight: 5, marginRight: 15}}></p> Areas of Impact
                    </h1>
-                    <div class="flex-container">
-                        <div class="flex-item-left">
-                            <h1 className=''>Healthcare</h1>
-                            <p className=''>Working with OSF to transform the way data is used in medical research and in practice. </p>
+                    <div class="impact-cont">
+                        <div class="impact-item-1">
+                            <h1 className='impact-title'>Healthcare</h1>
+                            <p className='impact-text'>Working with OSF to transform the way data is used in medical research and in practice. </p>
                         </div>
-                        <div class="flex-item-right">
-                            <h1 className=''>Finance</h1>
-                            <p className=''>Advancing DeFi to promote access and equity to people everywhere. </p>
+                        <div class="impact-item-2">
+                            <h1 className='impact-title'>Finance</h1>
+                            <p className='impact-text'>Advancing DeFi to promote access and equity to people everywhere. </p>
+                        </div>
+                        <div class="impact-item-1">
+                            <h1 className='impact-title'>Accounting</h1>
+                            <p className='impact-text'>Providing transparency and assurance to help businesses use digital money with confidence. </p>
+                        </div>
+                        <div class="impact-item-2">
+                            <h1 className='impact-title'>Supply Chain</h1>
+                            <p className='impact-text'>Provide consumers with transparency throughout the supply chain to ensure responsibly sourced goods. </p>
+                        </div>
+                        <div class="impact-item-1">
+                            <h1 className='impact-title'>Social Innovation</h1>
+                            <p className='impact-text'>Democratize access to capital and coordination of decentralized stakeholders around diversity, equity and inclusion. </p>
+                        </div>
+                        <div class="impact-item-2">
+                            <h1 className='impact-title'>Education</h1>
+                            <p className='impact-text'>Transforming access to education by aligning incentives of employers, employees, and educators. </p>
                         </div>
                     </div>
                     

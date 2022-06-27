@@ -1,15 +1,22 @@
-.flex-container {
+.impact-cont {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  .flex-item-left {
+}
+
+.impact-item-1 {
     flex: 50%;
-  }
-  
-  .flex-item-right {
+    
+}
+
+.impact-item-2 {
     flex: 50%;
-  }
+   
+}
+@media (max-width: 900px) {
+    .impact-item-1, .impact-item-2 {
+      flex: 100%;
+    }
+}
 .background-impact {
     background-color: #F5F5F5;
 }
