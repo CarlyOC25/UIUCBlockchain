@@ -1,7 +1,6 @@
 
 .mission-bg{
     background-image: url("/public/images/Group.png");
-    
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -19,7 +18,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 72px;
-    font-size: 72px;
+    font-size: 64px;
     padding-bottom: 60px;
     
 }

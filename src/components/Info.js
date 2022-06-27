@@ -4,7 +4,7 @@ import "../info.css"
 import "../missionStatement.css"
 export default class Info extends Component {
     render() {
-        return (    
+        return (     
             <div id='about' className='background-info'>
                 <div className='general-info'>
                     <div className='info-image' />
@@ -24,7 +24,7 @@ export default class Info extends Component {
                         <h4 className='mission-desc'>The University of Illinois has a land-grant mission. This means that we are passionate about democratizing education. As Blockchain continues to gain relevance, our mission is to equip this generation of Web3 workers with the skills and experiences necessary to meet the industry demand.</h4>
                     </div>
                     <div className='callToAction'>
-                        <h1 className='button-header'>Connect with us!</h1>
+                        <h1 className='button-header'>Connect with us!</h1> 
                         <Button className='button-txt'>leave your Contact</Button>
                     </div>
                 </div>

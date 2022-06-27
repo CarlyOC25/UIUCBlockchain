@@ -1,7 +1,14 @@
+@media (max-width: 1000px) {
+    .info-image, .info-body, .sharingKnowledge, .callToAction {
+      flex: 100%;
+    }
+}
+
 .general-info {
     padding-top: 100px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
     justify-content: flex-start;
     align-items: center;
 }
@@ -10,9 +17,11 @@
     padding-top: 250px;
     padding-bottom: 250px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap;  */
     align-items: center;
-    flex-wrap: wrap; 
+    justify-content: center;
 }
 
 .orangeBar {
@@ -28,16 +37,21 @@
     background-image: url("/public/images/GradiantBackground.png");
     width: 1000px;
     height: 694px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex: 60%;
+    /* justify-content: center; */
+    
 
 }
 
 .callToAction {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    flex: 40%;
     padding-left: 60px;
+    
 }
 
 .info-image {
@@ -45,14 +59,15 @@
     background-repeat: no-repeat;
     width: 6000px;
     height: 650px;
-    
+    flex: 50%;
 }
 
 .info-body {
     padding-left: 40px;
     padding-right: 7%;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    flex: 50%
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
@@ -84,8 +99,8 @@
     background-image: url("/public/images/Group.png");
     position: right bottom;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 

@@ -1,5 +1,10 @@
+@media (max-width: 900px) {
+    .impact-item-1, .impact-item-2 {
+      flex: 100%;
+    }
+}
 .backdrop {
-    height: 100vh;
+    height: 120vh;
     background-color: #182849; 
     background-image: url("/public/images/Group\ 75.png"),url("/public/images/intersect1.png") ;
     background-repeat: no-repeat;
@@ -13,7 +18,7 @@
     overflow: hidden;
     /* position: relative; */
 }
-
+ 
 .hero-content {
     padding-left: 7%;
     padding-right: 7%;
