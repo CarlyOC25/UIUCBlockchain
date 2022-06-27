@@ -1,3 +1,15 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item-left {
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+  }
 .background-impact {
     background-color: #F5F5F5;
 }
@@ -5,7 +17,6 @@
 
  
 .impact-title {
-    margin-top: 50px;
     color: #FF552E;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
