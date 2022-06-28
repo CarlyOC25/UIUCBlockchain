@@ -3,6 +3,16 @@
       flex: 100%;
     }
 }
+/* @media (max-width: 992px) {
+    .hero-header {
+        font-size: 60px !important;
+    }
+}
+@media (max-width: 800px) {
+    .hero-header {
+        font-size: 50px !important;
+    }
+} */
 .backdrop {
     height: 120vh;
     background-color: #182849; 
@@ -50,8 +60,7 @@
     font-style: normal;
     font-weight: 700;
     letter-spacing: -0.006em;
-    line-height: 119px;
-    font-size: 90px;
+    font-size: 7vw;
     margin-top: 60px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
@@ -61,7 +70,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.8vw;
     line-height: 158%;
     z-index: 1;
     margin-top: 20px;
@@ -71,14 +80,14 @@
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-size: 60px;
+    font-size: 3.8vw;
 }
 
 .statsDesc {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 1.2vw;
     padding-bottom: 50px;
 }
 

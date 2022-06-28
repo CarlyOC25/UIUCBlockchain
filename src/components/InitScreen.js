@@ -24,7 +24,7 @@ export default class InitScreen extends Component {
                     <div className='bottomTxt'>
                         <div>
                             <h1 className='stats'>#5</h1>
-                            <h1 className='statsDesc'>Top Universities for <br></br>Blockchain in U.S</h1>
+                            <h1 className='statsDesc'>cTop Universities for <br></br>Blockchain in U.S</h1>
                         </div>
                         <div className='divider' />
                         <div>

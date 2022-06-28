@@ -1,6 +1,46 @@
-@media (max-width: 1000px) {
-    .info-image, .info-body, .sharingKnowledge, .callToAction {
-      flex: 100%;
+@media (max-width: 1200px) {
+    .general-info {
+        padding-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .connect-info {
+        padding-top: 250px;
+        padding-bottom: 250px;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    
+    .sharingKnowledge {
+        padding-left: 5%;
+        padding-right: 5%;
+        background-image: url("/public/images/GradiantBackground.png");
+        width: 1000px;
+        height: 694px;
+        
+        /* display: flex; */
+        /* flex-direction: column; */
+        flex: 100%;
+        /* justify-content: center; */
+        
+    
+    }
+    
+    .callToAction {
+        /* display: flex; */
+        /* flex-direction: column; */
+        flex: 0%;
+        padding-left: 60px;
+    }
+    
+    .info-image {
+        flex: 100%;
+    }
+    
+    .info-body {
+        
+        flex: 100%;
     }
 }
 
@@ -19,9 +59,7 @@
     display: flex;
     /* flex-direction: row; */
     /* justify-content: flex-start; */
-    /* flex-wrap: wrap;  */
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap; 
 }
 
 .orangeBar {
@@ -51,7 +89,6 @@
     /* flex-direction: column; */
     flex: 40%;
     padding-left: 60px;
-    
 }
 
 .info-image {
@@ -94,7 +131,6 @@
 }
 
 .background-info {
-
     /* background-size: 100vw 80vh; */
     background-image: url("/public/images/Group.png");
     position: right bottom;

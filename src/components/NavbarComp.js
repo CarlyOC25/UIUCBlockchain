@@ -39,13 +39,16 @@ export default class NavbarComp extends Component {
                     </Navbar.Brand>
                     <Navbar.Brand href="#home"></Navbar.Brand>
 
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav">
+                      
+                    </Navbar.Toggle>
+                    
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto navRespon">
                         <Nav.Link className='navbar-Text' style={{paddingRight: 50}} href="#about">About</Nav.Link>
                         <Nav.Link className='navbar-Text' style={{paddingRight: 50}} href="#link">Explore</Nav.Link>
                         <Nav.Link className='navbar-Text' style={{paddingRight: 50}} href="#people">People</Nav.Link>
-                        <Nav.Link className='navbar-Text' style={{backgroundColor: '#FF552E', color: 'white', borderRadius: 50, paddingLeft: 10, paddingRight: 10}} href="#link">Give Now</Nav.Link>
+                        <Nav.Link className='navbar-Text btn' style={{backgroundColor: '#FF552E', color: 'white', borderRadius: 50, paddingLeft: 10, paddingRight: 10}} href="#link">Give Now</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                </Container>

@@ -1,3 +1,19 @@
+@media (max-width: 992px) {
+    .btn {
+        width: 150px;
+        text-align: center;
+    }
+    .navRespon {
+        text-align: center;
+        justify-content: center;
+        align-items: center
+    }
+    .navbar-Text {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 .navbar-Text {
     font-family: 'Montserrat', sans-serif;
@@ -40,4 +56,21 @@
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
+}
+.navbar-toggler-icon {
+    background-image: url("/public/images/navtoggle.svg") !important;
+    width: 100px;
+    /* height: 100px !important;
+    width: 100px !important; */
+    
+}
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 100px !important;
+    border-style: none !important;
+    
+}
+.navbar-toggler:focus {
+    border-radius: 100px !important;
+    border: 0px !important;
 }
