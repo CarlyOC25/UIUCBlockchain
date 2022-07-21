@@ -16,20 +16,21 @@
         padding-left: 5%;
         padding-right: 5%;
         background-image: url("/public/images/GradiantBackground.png");
-        width: 1000px;
+        width: 60%;
         height: 694px;
-        
-        /* display: flex; */
-        /* flex-direction: column; */
+        display: flex;
+        flex-direction: column;
         flex: 100%;
-        /* justify-content: center; */
+        justify-content: center;
         
     
     }
     
     .callToAction {
-        /* display: flex; */
-        /* flex-direction: column; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         flex: 0%;
         padding-left: 60px;
     }
@@ -76,17 +77,19 @@
     width: 1000px;
     height: 694px;
     
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     flex: 60%;
-    /* justify-content: center; */
+    justify-content: center;
     
 
 }
 
 .callToAction {
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 40%;
     padding-left: 60px;
 }

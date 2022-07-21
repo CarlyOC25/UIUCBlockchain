@@ -14,10 +14,10 @@ export default class Contact extends Component {
                                     Support blockchain innovation at Illinois 
                                 </h1>   
                                 <p className='text2'>Your contribution will help Illinois build the next evolution of the internet and equip future leaders in blockchain through innovative programming and curriculum, research, technology, and new start-up ventures. Make a gift to the Innovation Fund by donating below.</p>
-                                <Button className='btn-contact' style={{marginRight:'2.5rem'}}>
+                                <Button href='https://give.business.illinois.edu/gies-innovation-fund' className='btn-contact' style={{marginRight:'2.5rem'}}>
                                     Donate USD
                                 </Button>          
-                                <Button className='btn-contact'>
+                                <Button href='http://go.illinois.edu/givecrypto' className='btn-contact'>
                                     Donate Crypto
                                 </Button>            
                             </Col>

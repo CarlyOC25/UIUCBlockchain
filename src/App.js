@@ -2,11 +2,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
 import Team from './components/Team.js';
-import MissionStatement from './components/MissionStatement';
 import Contact from './components/Contact';
 import Info from './components/Info';
 import InitScreen from './components/InitScreen';
-import GetInvolved from './components/GetInvolved';
+import Explore from './components/Explore/Explore';
 import './background.css'
 
 import Footer from './components/Footer';
@@ -17,11 +16,9 @@ function App() {
       <NavbarComp/>
       <InitScreen/>
       <Info/>
-      {/* <MissionStatement/> */}
       <Impactheadline/>
-      {/* <CardComp/> */}
+      <Explore />
       <Team/>
-      {/* <GetInvolved/> */}
       <Contact/>
       <Footer/>
     </div>

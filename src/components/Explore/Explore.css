@@ -1,0 +1,147 @@
+.explore-body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.explore-content {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.explore-types {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+
+.explore-title{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    /* identical to box height, or 110% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.006em;
+
+    color: #333333;
+}
+
+.active {
+    border-bottom: 3px solid #FF552E;
+}
+
+.explore-filters {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+}
+
+.explore-filters-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #062356;
+    border-radius: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.active-area {
+    color: #FFFFFF;
+    background: #062356;
+}
+
+.explore-carousel {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    gap: 30px;
+}
+
+.exploreCard {
+    flex: 0 0 24em;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 13px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cardImage {
+    width: 100%;
+    height: 205px;
+    background-size: cover;
+    overflow: 'hidden';
+}
+
+.innerCardImage {
+    
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6,35,86,0.5);
+}
+
+.cardTitle {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    /* or 130% */
+
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}
+
+.cardText {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.cardFooter {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardButton {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #062356;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}

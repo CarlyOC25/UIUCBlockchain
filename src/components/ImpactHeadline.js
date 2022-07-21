@@ -36,63 +36,6 @@ export default class Impactheadline extends Component {
                             <p className='impact-text'>Transforming access to education by aligning incentives of employers, employees, and educators. </p>
                         </div>
                     </div>
-                    
-                   {/* <div className='impact-parent'> */}
-                        {/* <div className='impact-child-1'>
-                            <h1 className=''>Healthcare</h1>
-                            <p className=''>Working with OSF to transform the way data is used in medical research and in practice. </p>
-                        </div>
-                        <div className='impact-child-2'>
-                            <h1 className=''>Finance</h1>
-                            <p className=''>Advancing DeFi to promote access and equity to people everywhere. </p>
-                        </div> */}
-                        {/* <div className='diffStatements'>
-                            <h1 className='impact-title'>Accounting</h1>
-                            <p className='impact-text'>Providing transparency and assurance to help businesses use digital money with confidence. </p>
-                        </div>
-                        <div className='diffStatements'>
-                            <h1 className='impact-title'>Supply Chain</h1>
-                            <p className='impact-text'>Provide consumers with transparency throughout the supply chain to ensure responsibly sourced goods. </p>
-                        </div>
-                        <div className='diffStatements'>
-                            <h1 className='impact-title'>Social Innovation</h1>
-                            <p className='impact-text'>Democratize access to capital and coordination of decentralized stakeholders around diversity, equity and inclusion. </p>
-                        </div>
-                        <div className='diffStatements'>
-                            <h1 className='impact-title'>Education</h1>
-                            <p className='impact-text'>Transforming access to education by aligning incentives of employers, employees, and educators. </p>
-                        </div> */}
-                   {/* </div> */}
-                   {/* <Row >
-                       <Col lg={6} sm={12}>
-                            <h1 className='impact-title'>Healthcare</h1>
-                            <p className='impact-text'>Working with OSF to transform the way data is used in medical research and in practice. </p>
-                       </Col>
-                       <Col lg={6} sm={12}> 
-                            <h1 className='impact-title'>Finance</h1>
-                            <p className='impact-text'>Advancing DeFi to promote access and equity to people everywhere. </p>
-                       </Col>
-                   </Row>
-                   <Row>
-                       <Col lg={6} sm={12}>
-                            <h1 className='impact-title'>Accounting</h1>
-                            <p className='impact-text'>Providing transparency and assurance to help businesses use digital money with confidence. </p>
-                       </Col>
-                       <Col lg={6} sm={12}>
-                            <h1 className='impact-title'>Supply Chain</h1>
-                            <p className='impact-text'>Provide consumers with transparency throughout the supply chain to ensure responsibly sourced goods. </p>
-                       </Col>
-                   </Row>
-                   <Row>
-                       <Col lg={6} sm={12}>
-                            <h1 className='impact-title'>Social Innovation</h1>
-                            <p className='impact-text'>Democratize access to capital and coordination of decentralized stakeholders around diversity, equity and inclusion. </p>
-                       </Col>
-                       <Col lg={6} sm={12}>
-                            <h1 className='impact-title'>Education</h1>
-                            <p className='impact-text'>Transforming access to education by aligning incentives of employers, employees, and educators. </p>
-                       </Col>
-                   </Row> */}
                </Container>
             </div>
         )
