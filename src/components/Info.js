@@ -25,7 +25,7 @@ export default class Info extends Component {
                     </div>
                     <div className='callToAction'>
                         <h1 className='button-header'>Connect with us!</h1> 
-                        <Button className='button-txt'>leave your Contact</Button>
+                        <Button className='button-txt'>Leave your Contact</Button>
                     </div>
                 </div>
             </div>
